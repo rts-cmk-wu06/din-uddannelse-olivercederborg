@@ -1,0 +1,32 @@
+footer {
+	background-color: $dark-gray;
+	color: white;
+	padding: 1.5rem;
+	padding-top: 2rem;
+
+	.flex-wrapper {
+		display: flex;
+		justify-content: space-between;
+
+		address {
+			font-style: normal;
+			margin-top: 1rem;
+			line-height: 1.5;
+		}
+
+		.icon-group {
+			i {
+				margin-left: 1.25rem;
+				font-size: 1.5rem;
+				color: white;
+			}
+		}
+	}
+
+	.copyright {
+		font-size: 0.75rem;
+		margin: 0;
+		margin-top: 3.5rem;
+		align-self: center;
+	}
+}

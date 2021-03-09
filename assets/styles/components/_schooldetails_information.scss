@@ -1,0 +1,49 @@
+section.grid {
+	article.information-article {
+		padding: 1.5rem;
+		padding-bottom: 0;
+	}
+
+	figure {
+		margin: 0;
+	}
+
+	article.fakta-box {
+		background-color: $light-gray;
+		padding: 1rem;
+		margin: 1.5rem;
+		color: white;
+
+		h2 {
+			font-size: 1.5rem;
+		}
+	}
+}
+@media only screen and (min-width: 769px) {
+	section.grid {
+		padding: 2rem;
+		display: grid;
+		grid-template-columns: 0.9fr 1.1fr;
+		gap: 2rem;
+
+		img {
+			grid-row: span 1;
+		}
+
+		article.information-article {
+			padding: 0;
+			grid-row: 1 / span 3;
+			grid-column: 2;
+		}
+
+		article.fakta-box {
+			margin: 0;
+			padding: 2rem;
+
+			h2 {
+				margin-top: 0;
+				font-size: 2rem;
+			}
+		}
+	}
+}

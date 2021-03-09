@@ -1,0 +1,16 @@
+.primary-btn {
+	display: inline-block;
+	background-color: $burned-red;
+	padding: 1rem 3rem;
+	border-radius: 1000px;
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: #a52222;
+	}
+}
