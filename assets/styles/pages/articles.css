@@ -67,7 +67,7 @@ p {
   min-height: 210px;
   background-color: #8b7b7b;
   width: 100%;
-  background-image: url("/assets/img/article-hero.jpg");
+  background-image: url("../../img/article-hero.jpg");
   background-position: center 30%;
   background-repeat: no-repeat;
   background-size: cover;
